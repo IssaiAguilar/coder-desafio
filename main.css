@@ -1,0 +1,89 @@
+nav div img {
+    height: 100px;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "nav na nav"
+    "header header header"
+    "main main main"
+    "footer foorer footer"
+    ;
+    grid-gap: 20px;
+
+     
+
+}
+
+
+nav {
+    grid-template-areas: nav;
+    display: flex;
+    justify-content: space-around;
+    border: solid 2px blue;
+
+}
+
+ul li {
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    
+    display: inline-block;
+    padding: 20px;
+    font-size: 25px;
+  
+}
+
+ul li a {
+
+    border: solid 3px blueviolet;
+    padding: 0 5px  ;
+}
+
+header {
+    text-align: center;
+    grid-template-areas: header;
+    border: solid 2px blue;
+    
+    
+}
+header img {
+    width: 900px;
+}
+
+main {
+    grid-template-areas: main;
+    text-align: center;
+    border: double 2px blue;
+    
+}
+
+footer {
+    grid-template-areas: footer;
+    border: dotted 2px blue;
+    
+}
+
+.datos {
+    display: flex;
+    justify-content: space-around;
+}
+
+main section img {
+    height: 500px;
+}
+
+footer div img {
+    height: 50px;
+    position: relative;
+    left: 50px;
+    top: 20px;
+}
+
+main h3 p {
+    border: solid 2px;
+    margin: 50px;
+
+}
